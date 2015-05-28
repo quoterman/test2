@@ -1,0 +1,15 @@
+*.py[co]
+*.sw[po]
+*.bak
+*.orig
+*~
+*.egg-info
+.idea
+.DS_Store
+.project
+.pydevproject
+venv/
+virtenv/
+dist/
+build/
+Repos/

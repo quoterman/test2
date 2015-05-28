@@ -1,0 +1,9 @@
+<select class="form-control" ng-model="proger" ng-options="programmer.name group by project.teams[programmer.team-1].name for programmer in project.programmers">
+	<option value="" disabled>{$ dic.programmerSelector[lang] $}</option>
+</select>
+<br />
+<div id="chartdiv"></div>
+<br />
+<h3 style="color:#009900">Добавленно строк {$ nums[0] $}</h3>
+<h3 style="color:#cc0000">Удалено строк {$ nums[1] $}</h3>
+<h3>Живых строк {$ nums[2] $}</h3>
